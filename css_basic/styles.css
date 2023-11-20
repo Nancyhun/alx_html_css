@@ -14,6 +14,8 @@ main
 article{
     flex:2;
     overflow-y: auto;
+    background-color: steelblue;
+    border:5px solid rebeccapurple;
 }
 
 aside{
