@@ -181,6 +181,7 @@
       ============================= */
   .row{
     display:flex;
+
   }
   ul.row {
     margin: -1rem;
@@ -211,16 +212,17 @@
   /* Navbar
       ============================= */
   
-  /* .navbar-menu {
+   .navbar-menu {
+    margin-top: -50px;
     float: right;
-  } */
+
+  } 
   
   .nav .nav-item + .nav-item {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-    display:flex;
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -234,9 +236,12 @@
   }
   
   .nav .nav-link {
-    display: block;
-    padding: 0.5rem 0;
+    display: flex;
+    /* padding: 0.5rem 0; */
     position: relative;
+  }
+  .nav{
+    display: flex;
   }
   
   .nav .nav-link:hover {
@@ -284,8 +289,9 @@
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left); */
+    left: var(--header-logo-link-left);
   }
+  */
   
   /* Footer
       ============================= */
@@ -312,11 +318,35 @@
   
   .social-link {
     display: block;
+    justify-content: space-between;
   }
   
   .social-link > svg {
     fill: var(--text-color);
   }
+
+  .social{
+    display: flex;
+    margin-left: 27rem;
+  }
+
+   .footer-nav{
+    display: flex;
+   }
+   .row-1{
+    display: flex;
+  justify-content: space-between; 
+   
+   }
+
+
+  /* selector debuging  */
+ 
+
+/* .footer .container .col-1-2 .nav .social-item .social-link{
+    font-size: 100%;
+    color: red;
+} */
   
   /*** 3. SECTION ***/
   
